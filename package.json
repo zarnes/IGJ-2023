@@ -1,18 +1,18 @@
 {
-  "name": "vue-project",
+  "name": "wizard-idle",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^2.7.7"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-legacy": "^2.0.0",
-    "@vitejs/plugin-vue2": "^1.1.2",
-    "terser": "^5.14.2",
-    "vite": "^3.0.2"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
   }
 }
